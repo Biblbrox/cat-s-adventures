@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="8" tileheight="8" infinite="1" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="Level1.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="base64" compression="zstd">
+   <chunk x="0" y="0" width="16" height="16">
+   KLUv/WAAA3UAABAANwMAfUEF2J2HoI4N
+  </chunk>
+   <chunk x="16" y="0" width="16" height="16">
+   KLUv/WAAA3UAABAANwMAfUEF3ElHJMcG
+  </chunk>
+   <chunk x="32" y="0" width="16" height="16">
+   KLUv/WAAA3UAABAANwMAfUEF3ElHJMcG
+  </chunk>
+   <chunk x="48" y="0" width="16" height="16">
+   KLUv/WAAA3UAABAANwMAfUEF3ElHJMcG
+  </chunk>
+   <chunk x="64" y="0" width="16" height="16">
+   KLUv/WAAA3UAABAANwMAfUEF3ElHJMcG
+  </chunk>
+   <chunk x="80" y="0" width="16" height="16">
+   KLUv/WAAA3UAABAANwMAfUEF3ElHJMcG
+  </chunk>
+   <chunk x="96" y="0" width="16" height="16">
+   KLUv/WAAA3UAABAANwMAfUEF3ElHJMcG
+  </chunk>
+   <chunk x="112" y="0" width="16" height="16">
+   KLUv/WAAA3UAABAANwMAkUEF7MwjkmMD
+  </chunk>
+  </data>
+ </layer>
+</map>
