@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dx1hs01yh8640"]
+
+[ext_resource type="Texture2D" uid="uid://cisq60a5v4uoc" path="res://art/tiles/Misc/popup.png" id="1_8lcgi"]
+
+[node name="Sprite2D" type="Sprite2D"]
+texture = ExtResource("1_8lcgi")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -416.0
+offset_top = -112.0
+offset_right = -168.0
+offset_bottom = -8.0
+text = "Hello, kitten! Isn't it a wonderful day for a walk with the golden? He's sitting under the tree, join him."
+autowrap_mode = 3

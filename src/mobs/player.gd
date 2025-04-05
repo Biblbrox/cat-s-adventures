@@ -6,7 +6,7 @@ signal hit
 var screen_size
 
 var run_speed = 350
-var jump_speed = -1000
+var jump_speed = -700
 var gravity = 2500
 
 
@@ -14,7 +14,6 @@ var gravity = 2500
 func _ready() -> void:
 	screen_size = get_viewport_rect().size
 	hide()
-
 
 
 func get_input():
@@ -36,12 +35,17 @@ func _physics_process(delta):
 	move_and_slide()
 	
 	if velocity.x != 0:
-		$AnimatedSprite2D.animation = "walk"
-		$AnimatedSprite2D.flip_v = false
 		$AnimatedSprite2D.flip_h = velocity.x > 0
+		if velocity.y == 0:
+			$AnimatedSprite2D.animation = "walk"
+		else:
+			$AnimatedSprite2D.stop()
+		$AnimatedSprite2D.play()
 	elif velocity.y != 0:
-		$AnimatedSprite2D.animation= "up"
-		#$AnimatedSprite2D.flip_v = velocity.y > 0
+		$AnimatedSprite2D.animation = "up"
+		$AnimatedSprite2D.play()
+	else:
+		$AnimatedSprite2D.stop()
 		
 
 func start(pos):
